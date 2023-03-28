@@ -154,7 +154,6 @@ let veggieContainer = document.getElementById("veggieRecipeCards");
     //Loop through all recipes and generate cards
     if(category != null)
     for (var i = 0; i < recipes.length; i++){
-        
         const content =`
         <button class="card-button" id=${recipes[i].name.replace(/\s+/g, '')}>
         <div class="card">
@@ -197,9 +196,9 @@ menuLink.forEach(openCard);
 card.forEach(openCard);
 
 function openCard(target){
-    console.log("calling openCard");
     target.onclick = function(){
         let clickedRecipe = findRecipe(target.id);
+        console.log(clickedRecipe);
         document.cookie = 'recipe=' + JSON.stringify(clickedRecipe);
         setTimeout(function(){
             location.href ="Recipe.html";

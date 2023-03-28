@@ -415,7 +415,7 @@ a{
 .scroll-image1{
     width: 100%;
     height: 100%;
-    background-image: url(sources/Burger.jpg);
+    background-image: url(sources/RostedPorkChops.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -426,7 +426,7 @@ a{
 .scroll-image2{
     width: 100%;
     height: 100%;
-    background-image: url(sources/HotDogs.jpg);
+    background-image: url(sources/OnionPanFriedPorkChops.jpg);
     background-size: cover;
     background-position: center;
 border-radius: 10px;
@@ -436,7 +436,7 @@ border-radius: 10px;
 .scroll-image3{
     width: 100%;
     height: 100%;
-    background-image: url(sources/ChickenNoodleSoup.jpg);
+    background-image: url(sources/GrilledMushroomsWithPorkBacon.jpg);
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -446,7 +446,7 @@ border-radius: 10px;
 .scroll-image4{
     width: 100%;
     height: 100%;
-    background-image: url(sources/Burger.jpg);
+    background-image: url(sources/AirFryerRanchPorkChops.jpg);
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -456,7 +456,7 @@ border-radius: 10px;
 .scroll-image5{
     width: 100%;
     height: 100%;
-    background-image: url(sources/HotDogs.jpg);
+    background-image: url(sources/SaucyPorkChops.jpg);
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -607,21 +607,21 @@ border-radius: 10px;
     background-position: center;
 }
 .content-image1{
-    background-image: url(sources/Burger.jpg);
+    background-image: url(sources/RostedPorkChops.jpg);
     
     
     
 }
 
 .content-image2{
-    background-image: url(sources/HotDogs.jpg);
+    background-image: url(sources/BakedChickenBreasts.jpg);
     
     
     
 }
 
 .content-image3{
-    background-image: url(sources/ChickenNoodleSoup.jpg);
+    background-image: url(sources/CurriedCarrotSoup.jpg);
     
    
     

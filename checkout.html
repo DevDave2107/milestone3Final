@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyles.css">
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+</head>
+<body>
+
+<!--                    NAVBAR          -->
+<div class="navbar" id="navbar">
+    <div id="menuToggle">
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+            <a href="Pork.html"><li><h2>Pork</h2></li></a></li>
+            <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+            <a href="Pork.html"><li>View All</li></a></li>
+            <a href="Chicken.html"><li><h2>Chicken </h2></li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+            <a href="Chicken.html"><li>View All</li></a></li>
+            <a href="Beef.html"><li><h2>Beef </h2></li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+            <a href="Beef.html"><li>View All</li></a></li>
+            <a href="Veggie.html"><li><h2>Veggie </h2></li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+           <a href="#" id="BaconWrappedHotdogs" data-menu-link><li>a popular dish</li></a></li>
+            <a href="Veggie.html"><li>View All</li></a></li>
+        </ul>
+    </div>
+
+    <div class="navbar__brand" > 
+       <a href="Index.html"><h1 id="navBrand">NAME</h1></a> 
+    </div>
+
+    <div id="cartToggle">
+        <input type="checkbox" class="save-cb-state" name="cartmenu" id="cartCheckBox"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentcolor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>
+
+        <ul class="cart-list " id="cart">
+            <h1 style="text-decoration: underline;">Your Cart </h1> 
+        </ul>
+    </div>
+
+</div>
+
+</div>
+
+<!--                END-NAVBAR              -->
+
+<div class="Wrapper-col"style="height:100vh; justify-content: flex-start;">
+    <h1 style="text-decoration: underline; padding-top: 30px;">Checkout</h1>
+    <h2 style="text-decoration: underline; margin-top: 4rem; margin-bottom: 4rem;">Your Order</h2>
+    <div class="Wrapper-col order-summary-titles">
+        <div class="Wrapper" style="border-bottom: 2px solid black; width: 80%; justify-content: space-around;">
+            <h3>Item</h3>
+            <h3>Quantity</h3>
+            <h3>Price</h3>
+        </div>
+        <div class="Wrapper" style="margin-bottom: 2rem; width: 80%; border-bottom: 2px solid black;" data-summary-items>
+            <div class="Wrapper-col" style="width: 30%; align-items: flex-start;" id="order-summary-items">
+
+            </div>
+            <div class="Wrapper-col" style="width: 30%;" id="order-summary-quantity">
+
+            </div>
+            <div class="Wrapper-col" style="width: 30%; " id="order-summary-Price">
+
+            </div>
+            
+        </div>   
+    </div>
+    <div class="Wrapper">
+        <div class="Wrapper">
+            <h3 style="text-decoration: underline;"> Payment Info</h3> 
+        </div>
+       
+        <div class="Wrapper-col" style="align-items: center; " id="checkout-summary-info">
+            <div class="section__padding" style="align-items: flex-end;">
+               <h4>Email: <input type="email" id="checkoutemail" required placeholder="Enter A Valid Email Address"></h4> 
+                <h4 style="padding-bottom: 2rem;">Name: <input type="text" placeholder="John Doe"></h4>   
+
+                <h4>Address: <input type="text" placeholder="1234 address"></h4>  
+                <h4 style="padding-bottom: 2rem;">Postal Code: <input type="text" required pattern="[0-9]{6,8}" maxlength="8" placeholder="123 456"></h4> 
+
+                <h4>Card#: <input id="cardinfo" required pattern="[0-9]{13,16}" placeholder="xxxx xxxx xxxx xxxx" maxlength="16"></h4>
+                <h4>Exp Date: <input type="text" id="expdate" maxlength="6" required pattern="(0[1-9]|1[012])[- /.](19|20)\d\d" placeholder="MM/YYYY"></h4>
+                <h4 style="border-bottom: 2px solid black; margin-bottom: 2rem; padding-bottom: 1rem;">CVV: <input type="text" id="cvv" required pattern="[0-9]{4} " maxlength="3" placeholder="xxx"></h4>
+ 
+                <h4 id="checkout-summary-subtotal">Subtotal:</h4>   
+                <h4 id="checkout-summary-tax">Tax:</h4>
+                <h4 id="checkout-summary-total">Total:</h4>  
+            </div>
+           
+
+        </div>
+        <button id="ConfirmPurchase">Confirm Purchase</button>
+    </div>  
+    
+    
+</div>
+
+
+
+<!--                Footer Section                -->
+<div class="Footer">
+    <div class="Wrapper section__padding">
+        <h1>CATEGORIES</h1>
+    </div>
+    <div class="footer-links ">
+        <a href="Pork.html"><h3 class="footer-links_link">Pork</h3></a>
+        <a href="Chicken.html"><h3 class="footer-links_link">Chicken</h3></a>
+        <a href="Beef.html"><h3 class="footer-links_link">Beef</h3></a>
+        <a href="Beef.html"><h3 class="footer-links_link">Veggie</h3></a>
+    </div>
+
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
